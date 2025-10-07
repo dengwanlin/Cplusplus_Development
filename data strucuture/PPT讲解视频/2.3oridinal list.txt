@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+
+#define maxlen 100
+
+typedef struct
+{
+char key[10];
+char name[20];
+int age;
+}DATA;
+typedef struct
+{
+DATA Listdata[maxlen+1];
+int Listlen;
+}SLType;
